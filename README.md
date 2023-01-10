@@ -8,6 +8,8 @@ Special keys are beautified in the logs (such as ALT, CTRL, ENTER, etc...)
 
 Logs and emails come with a timestamp
 
+Windows Defender does not like it :(
+
 
 ## Running SkreynLogger.py
 ![running](https://user-images.githubusercontent.com/38294180/211581391-38c45ab9-4922-41f9-896b-edeba1b9e541.png)
