@@ -6,6 +6,8 @@ It is capable of saving the logs locally, but in the current version it cleans t
 
 Special keys are beautified in the logs (such as ALT, CTRL, ENTER, etc...)
 
+Logs and emails come with a timestamp
+
 
 
 ## Running SkreynLogger.py
