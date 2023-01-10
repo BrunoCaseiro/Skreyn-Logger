@@ -111,7 +111,7 @@ def send_email():
 
 	# Log in to server using secure context and send email
 	context = ssl.create_default_context()
-	with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:			#not sure about other servers, but don't change this to send FROM a gmail
+	with smtplib.SMTP_SSL("smtp.gmail.com", 465, context=context) as server:	#not sure about other servers, but don't change this to send FROM a gmail account
     		server.login(sender_email, password)
     		server.sendmail(sender_email, receiver_email, text)
 
