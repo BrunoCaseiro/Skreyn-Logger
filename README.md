@@ -1,8 +1,6 @@
 # SkreynLogger
-###### Key and screen logger in Python which periodically sends the logs to your email
 
-Script that logs keystrokes and takes periodic screenshots before sending them to your email address
-It is capable of saving the logs locally, but in the current version it cleans them up after sending
+Script that logs keystrokes and takes periodic screenshots before sending them to your email address. It is capable of saving the logs locally, but in the current version it cleans up after itself after sending them
 
 Special keys are beautified in the logs (such as ALT, CTRL, ENTER, etc...)
 
